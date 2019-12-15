@@ -1,0 +1,55 @@
+  Version 0.6
+  -----------
+  A messagebox displays the name of the patched OllyDBG.  Thanks to Shub-nigurrath.
+  Deletes the Exports Directory of the new Olly.  (Used by ExeCrypt).  Again to Shub-nigurrath.
+  New GUI.  Thanks to bLaCk-eye.
+  Now changes the name of ollydbg.exe to a random name.
+
+  Version 0.51
+  -----------
+  Fixed a bug that changed the name of ollydbg.ini messing up some plugins.
+  Now fixes window class name.  This only works for the 'On disk' option.
+  Now reloads the file after patching on disk.
+  Fixed a bug that occured if the app was closed before hitting 'OK' in RE-Pair.
+  Fixed some other UI related bugs.  I know there are more, but im lazy.
+
+  Version 0.4
+  -----------
+  Added option to fix any tools caption in memory.  This is good for packed apps
+  and one time changes in the .exes caption.  Please let me know if you find a tool
+  that either option (in mem/on disk) doesnt work for.	
+
+  Version 0.3
+  -----------
+  Added option to fix any tools caption on disk.
+
+  Version 0.2
+  -----------
+  Lost my sources so i had to recode most of the program
+  Currently it changes classname/captions of: OllyDbg, Smartcheck and Reg/Filemon.
+  I have also added a patch that fixes the OutputDebugString Vurn.  All credit for this patch
+  goes to goggles99, Flagmax, JuneMouse, gabri3l, and others from Woodman and Exetools.  
+  Mostly googles99, because i used his sources.  I just added to my tool to make it an 'all-in-one'
+  solution.  I no longer plan to add any SI support as IceExt does an excellent job of this.
+  
+  Version 0.1
+  -----------
+  First release.  Right now all that it does is:
+  'Fixes' RegMon, FileMon, and SmartCheck by giving them random Class names.
+  *Note*  This does not work on the ia64XP version of FileMon or RegMon. 
+  *Note*  The filemon/regmon patch was tested on version 5.x.  The class
+	  names changed a bit in previous versions.  So if you get the 
+	  'wrong file' error, just upgrade to the newest version of regmon 
+	  or filemon.  No versions before 5.0 will be supported, but newer
+  	  versions will.
+
+  Hooks the API IsDebuggerPresent to always return FALSE.  This will help 
+  protect Olly and SmartCheck against calls to this API.
+  *Note*  This does not help against anti-SI code.
+  *Note*  This currently only works on 9x.
+  *Note*  This only works when the program is running.
+
+  Still to come:
+  A decent GUI.  (Maybe.)
+  IsDebuggerPresent hook for NT based systems.
+  Renaming of SmartChecks .SUP files.

@@ -1,0 +1,12 @@
+DaXXoR - Decryptme
+
+A good tut should include: 
+
+How you defeated the Debugger detection.
+How you found & patched the nag.
+How you decrypted the message. 
+
+
+Just start small......
+
+DaXXoR_101@yahoo.com

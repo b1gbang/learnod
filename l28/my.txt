@@ -1,0 +1,65 @@
+
+Email josephco_@hotmail.com with any errors or problemsa0dThis program doesn't have executable code right after it loads
+
+
+Proc: 401c98
+401BD0: 04 FLdRfVar                local_008C
+401BD3: 21 FLdPrThis              
+401BD4: 0f VCallAd                 text
+401BD7: 19 FStAdFunc               local_0088
+401BDA: 08 FLdPr                   local_0088
+401BDD: 0d VCallHresult            get__ipropTEXTEDIT
+401BE2: 6c ILdRf                   local_008C
+401BE5: 1b LitStr:                 " 
+401BE8: Lead0/30 EqStr            
+401BEA: 2f FFree1Str               local_008C
+401BED: 1a FFree1Ad                local_0088
+401BF0: 1c BranchF:                401BF6
+401BF3: 1e Branch:                 401c94
+401BF6: Lead3/c1 LitVarI4:         ( local_3BE500AC ) 0x3c41a  (246810)
+401BFE: Lead1/f6 FStVar            local_009C
+401C02: 04 FLdRfVar                local_008C
+401C05: 21 FLdPrThis              
+401C06: 0f VCallAd                 text
+401C09: 19 FStAdFunc               local_0088
+401C0C: 08 FLdPr                   local_0088
+401C0F: 0d VCallHresult            get__ipropTEXTEDIT
+401C14: 6c ILdRf                   local_008C
+401C17: 0a ImpAdCallFPR4:          _rtcR8ValFromBstr
+401C1C: Lead2/6b CVarR8           
+401C20: 5d HardType               
+401C21: 04 FLdRfVar                local_009C
+401C24: Lead0/40 NeVarBool        
+401C26: 2f FFree1Str               local_008C
+401C29: 1a FFree1Ad                local_0088
+401C2C: 1c BranchF:                401C63
+401C2F: 27 LitVar_Missing         
+401C32: 27 LitVar_Missing         
+401C35: 3a LitVarStr:              ( local_00CC ) P-Code
+401C3A: 4e FStVarCopyObj           local_00DC
+401C3D: 04 FLdRfVar                local_00DC
+401C40: f5 LitI4:                  0x40  64  (...@)
+401C45: 3a LitVarStr:              ( local_00AC ) Número Incorrecto
+401C4A: 4e FStVarCopyObj           local_00BC
+401C4D: 04 FLdRfVar                local_00BC
+401C50: 0a ImpAdCallFPR4:          _rtcMsgBox
+401C55: 36 FFreeVar         local_00BC local_00DC local_00FC local_011C 
+401C60: 1e Branch:                 401c94
+401C63: 27 LitVar_Missing         
+401C66: 27 LitVar_Missing         
+401C69: 3a LitVarStr:              ( local_00CC ) P-Code
+401C6E: 4e FStVarCopyObj           local_00DC
+401C71: 04 FLdRfVar                local_00DC
+401C74: f5 LitI4:                  0x0  0  (....)
+401C79: 3a LitVarStr:              ( local_00AC ) Número Correcto!!
+401C7E: 4e FStVarCopyObj           local_00BC
+401C81: 04 FLdRfVar                local_00BC
+401C84: 0a ImpAdCallFPR4:          _rtcMsgBox
+401C89: 36 FFreeVar         local_00BC local_00DC local_00FC local_011C 
+401C94: 13 ExitProcHresult        
+
+
+Successfully went through the program!
+Now it's up to you to decipher it hehe!
+
+Email josephco_@hotmail.com with any problems or errors
